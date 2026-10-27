@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "jobs": [
+    {
+      "id": "example-payments-senior-backend-engineer",
+      "hash": "356b023b7deb97f3",
+      "title": "Senior Backend Engineer",
+      "company": "Example Payments",
+      "location": "Remote — Americas",
+      "salary": "USD 5,500–7,000/month",
+      "link": "https://example.com/careers/senior-backend",
+      "source": "Company careers page",
+      "description": "Node.js/TypeScript payments APIs on PostgreSQL and AWS; on-call rotation; salary range disclosed.",
+      "axes": {
+        "technical": 0.95,
+        "salary": 1,
+        "location": 1,
+        "seniority": 1,
+        "quality": 1
+      },
+      "hardReject": null,
+      "score": 0.965,
+      "decision": "APPROVE",
+      "status": "prepared",
+      "history": [
+        {
+          "status": "found",
+          "at": "2026-10-27T17:08:16.743Z",
+          "note": "core stack match, disclosed range above floor"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-27T17:08:16.826Z",
+          "note": "strong match"
+        },
+        {
+          "status": "prepared",
+          "at": "2026-10-27T17:08:16.912Z",
+          "note": "tailored résumé + letter drafted"
+        }
+      ]
+    },
+    {
+      "id": "demo-analytics-full-stack-engineer",
+      "hash": "ef6db48c9e184f13",
+      "title": "Full Stack Engineer",
+      "company": "Demo Analytics",
+      "location": "Remote",
+      "salary": null,
+      "link": "https://example.org/jobs/full-stack",
+      "source": "We Work Remotely",
+      "description": "React + Node product team; region not stated; Python nice to have.",
+      "axes": {
+        "technical": 0.75,
+        "salary": 0.7,
+        "location": 0.7,
+        "seniority": 1,
+        "quality": 0.6
+      },
+      "hardReject": null,
+      "score": 0.745,
+      "decision": "REVIEW",
+      "status": "found",
+      "history": [
+        {
+          "status": "found",
+          "at": "2026-10-27T17:08:16.743Z",
+          "note": "good stack fit; ask about region and pay"
+        }
+      ]
+    },
+    {
+      "id": "sample-cloud-platform-engineer",
+      "hash": "696d32ecfeca2b83",
+      "title": "Platform Engineer",
+      "company": "Sample Cloud",
+      "location": "Remote (US only)",
+      "salary": "USD 150k/year",
+      "link": "https://example.net/jobs/platform",
+      "source": "LinkedIn Jobs",
+      "description": "Kubernetes/Go platform team; must reside in the US.",
+      "axes": {
+        "technical": 0.3,
+        "salary": 1,
+        "location": 0,
+        "seniority": 1,
+        "quality": 0.9
+      },
+      "hardReject": "must reside in the US",
+      "score": 0.405,
+      "decision": "REJECT",
+      "status": "found",
+      "history": [
+        {
+          "status": "found",
+          "at": "2026-10-27T17:08:16.743Z",
+          "note": "scored 0.405 → REJECT"
+        }
+      ]
+    }
+  ]
+}

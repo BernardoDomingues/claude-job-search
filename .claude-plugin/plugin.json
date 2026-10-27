@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "job-search",
+  "version": "0.1.0",
+  "description": "Human-in-the-loop job search: real postings, weighted scoring, application tracking, tailored résumé/cover-letter drafts, interview and offer-negotiation prep.",
+  "author": {
+    "name": "Bernardo Domingues",
+    "url": "https://github.com/BernardoDomingues"
+  },
+  "homepage": "https://github.com/BernardoDomingues/claude-job-search",
+  "repository": "https://github.com/BernardoDomingues/claude-job-search",
+  "license": "MIT",
+  "keywords": ["job-search", "career", "resume", "cover-letter", "interview", "negotiation"]
+}

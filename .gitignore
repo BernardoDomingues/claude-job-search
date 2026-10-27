@@ -1,0 +1,7 @@
+# A personal workspace created while testing the plugin from this folder
+/job-search/
+
+node_modules/
+coverage/
+*.tmp
+.DS_Store

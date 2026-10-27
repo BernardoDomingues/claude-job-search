@@ -1,0 +1,15 @@
+{
+  "name": "claude-job-search",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code plugin for a human-in-the-loop job search: real postings, weighted scoring, tracking and tailored drafts.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage --test-coverage-include=scripts/lib/** --test-coverage-lines=90"
+  }
+}

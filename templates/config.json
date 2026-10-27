@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "targetRoles": [],
+    "seniority": [],
+    "primaryStack": [],
+    "secondaryStack": [],
+    "yearsOfExperience": null,
+    "languages": ["en"]
+  },
+  "search": {
+    "locations": ["remote-global"],
+    "countries": [],
+    "contractTypes": [],
+    "boards": [],
+    "excludeOnSite": true
+  },
+  "salary": {
+    "floor": null,
+    "currency": "USD",
+    "period": "month"
+  },
+  "scoring": {
+    "weights": {
+      "technical": 0.7,
+      "salary": 0.1,
+      "location": 0.1,
+      "seniority": 0.05,
+      "quality": 0.05
+    },
+    "thresholds": {
+      "review": 0.5,
+      "approve": 0.75
+    }
+  },
+  "output": {
+    "defaultLanguage": "en",
+    "pdf": true
+  }
+}

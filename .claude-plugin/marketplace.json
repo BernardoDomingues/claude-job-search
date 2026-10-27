@@ -1,0 +1,18 @@
+{
+  "name": "claude-job-search",
+  "owner": {
+    "name": "Bernardo Domingues",
+    "url": "https://github.com/BernardoDomingues"
+  },
+  "metadata": {
+    "description": "A human-in-the-loop job-search plugin for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "job-search",
+      "source": "./",
+      "description": "Real job postings, weighted scoring, application tracking, tailored drafts, interview and negotiation prep.",
+      "version": "0.1.0"
+    }
+  ]
+}

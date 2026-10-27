@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "targetRoles": ["Backend Engineer", "Full Stack Engineer"],
+    "seniority": ["mid-level", "senior"],
+    "primaryStack": ["TypeScript", "Node.js", "PostgreSQL", "React"],
+    "secondaryStack": ["AWS", "Docker", "GraphQL"],
+    "yearsOfExperience": 6,
+    "languages": ["en", "es"]
+  },
+  "search": {
+    "locations": ["remote-global", "remote-americas"],
+    "countries": [],
+    "contractTypes": ["employee", "contractor"],
+    "boards": ["LinkedIn Jobs", "We Work Remotely", "Greenhouse / Lever / Ashby (site: search)"],
+    "excludeOnSite": true
+  },
+  "salary": {
+    "floor": 4500,
+    "currency": "USD",
+    "period": "month"
+  },
+  "scoring": {
+    "weights": {
+      "technical": 0.7,
+      "salary": 0.1,
+      "location": 0.1,
+      "seniority": 0.05,
+      "quality": 0.05
+    },
+    "thresholds": {
+      "review": 0.5,
+      "approve": 0.75
+    }
+  },
+  "output": {
+    "defaultLanguage": "en",
+    "pdf": true
+  }
+}
